@@ -1,4 +1,4 @@
-package edu.teamrocket;
+package edu.teamrocket.golfsrokes;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
