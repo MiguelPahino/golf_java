@@ -18,5 +18,15 @@ class Hole {
         return this.par;
     }
 
+    @Override
+    public String toString(){
+        return new StringBuilder()
+        .append("\s\s\s")
+        .append(this.getNumber())
+        .append(" - ")
+        .append(this.getPar())
+        .toString();
+    }
+
 
 } 

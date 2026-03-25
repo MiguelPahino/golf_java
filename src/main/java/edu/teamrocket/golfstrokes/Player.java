@@ -24,10 +24,21 @@ class Player {
         return this.score;
     }
 
+    public void setScore(Short score) {
+        this.score = score;
+    }
+
     public Short getPoints() {
         return this.points;
     }
 
+    public void setPoints(Short points) {
+        this.points = points;
+    }
 
-
+    @Override
+    public String toString(){
+        return "\n" + this.initials + "\s--->" + "\sH'cap:\s" + this.handicap 
+        + "\tStrokes:\s" + this.getScore() + "\sPoints\s" + this.getPoints();
+    }
 }
